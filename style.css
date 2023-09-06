@@ -1206,8 +1206,8 @@ ul > li {
 }
 /*=======Page Footer================*/
 .page-footer{
-	background: black;
-	color: #fff;
+	background: #fff;
+	color: #000;
 }
 
 .page-footer .footer-first-section .container {
