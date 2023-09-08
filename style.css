@@ -1695,72 +1695,127 @@ aside .news-letter hr {
 /*======================
 	Contact page
 ========================*/
-.social-icons {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  margin:0;
-  padding:0;
-  display:flex;
+.contact-page-section {
+	/*font-family: 'Raleway', sans-serif;*/
+	padding-top: 50px;
 }
 
-.social-icons li {
-  list-style: none;
+.contact-page-section .container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding-top: 6.25em;
+	padding-bottom: 6.25em;
 }
 
-.social-icons li a {
-  position: relative;
-  width:60px;
-  height:60px;
-  display:block;
-  text-align:center;
-  margin:0 10px;
-  border-radius: 50%;
-  padding: 6px;
-  box-sizing: border-box;
-  text-decoration:none;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  background: linear-gradient(0deg, #ddd, #fff);
-  transition: .5s;
+.contact-page-section .people-info-wrap {
+	width: 57.265%;
+
 }
 
-.social-icons li a:hover {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  text-decoration:none;
+.contact-page-section .people-info-wrap h2 {
+	/*font-size: 3rem;*/
+	text-transform: uppercase;
+	/*color: #000;*/
 }
 
-.social-icons li a .fab {
-  widht: 100%;
-  height:100%;
-  display:block;
-  background: linear-gradient(0deg, #fff, #ddd);
-  border-radius: 50%;
-  line-height: calc(60px - 12px);
-  font-size:24px;
-  color: #262626;
-  transition: .5s;
+.contact-page-section .people-info-wrap p {
+	/*font-size: 1.6rem;*/
+	/*color: #5c5c5c;*/
+	margin-top: 1.5625em;
+	margin-bottom: 2.5em;
 }
 
-.social-icons li:nth-child(1) a:hover .fab {
-  color: #3b5998;
+.contact-page-section .people-info-wrap form span {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 
-.social-icons li:nth-child(2) a:hover .fab {
-  color: #00aced;
+.contact-page-section .people-info-wrap form .input- {
+	/*font-size: 1.6rem;*/
+	padding: 0.875em 1.5em;
 }
 
-.social-icons li:nth-child(3) a:hover .fab {
-  color: #dd4b39;
+.people-info-wrap form .name, .people-info-wrap form .email {
+	width: 48%;
 }
 
-.social-icons li:nth-child(4) a:hover .fab {
-  color: #007bb6;
+.people-info-wrap form .subject {
+	margin-top: 0.9375em;
+	margin-bottom: 0.9375em;
+	width: 100%;
 }
 
-.social-icons li:nth-child(5) a:hover .fab {
-  color: #e4405f;
+.people-info-wrap form textarea {
+	padding-top: 1.5em !important;
+	resize: none;
+	height: 8em;
 }
+
+.people-info-wrap form input[type="submit"] {
+	/*font-size: 1.6rem;*/
+	background: #2d77bf;
+	/*color: #fff;*/
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+	margin-top: 1.875em;
+	cursor: pointer;
+}
+
+/*====Contact Info====*/
+
+.contact-page-section .contact-info {
+	width: 370px;
+}
+
+.contact-page-section .contact-info h2 {
+	/*font-size: 3rem;*/
+	text-transform: uppercase;
+	/*color: #000;*/
+	margin-bottom: 2em;
+}
+
+.contact-page-section .contact-list {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.875em;
+	list-style: none;
+	border-bottom: 1px solid #b9c1cd;
+}
+
+.contact-page-section .contact-list li {
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 3.125em;
+}
+
+.contact-page-section .contact-list li svg {
+	/*color: #000;*/
+	margin-top: 5px;
+	margin-right: 25px;
+}
+
+.contact-page-section .contact-social {
+	margin: 0;
+	margin-top: 2.25em;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.contact-page-section .contact-social li{
+	margin-right: 1.5em;
+}
+
+.map-section {
+	margin-bottom: -7px;
+}
+
 /*============================
 	Course Single Page
 ==============================*/
