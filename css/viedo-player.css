@@ -70,12 +70,13 @@ body{
 .video-playlist .video-list-container .list{
    display: flex;
    align-items: center;
-   gap:15px;
    padding:10px;
    background-color: #eee;
    cursor: pointer;
    border-radius: 5px;
    margin-bottom: 10px;
+   flex-flow: column;
+   gap:10px;
 }
 
 .video-playlist .video-list-container .list:last-child{
