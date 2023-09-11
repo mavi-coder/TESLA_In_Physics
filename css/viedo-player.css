@@ -129,10 +129,6 @@ body{
       text-align: center;
    }
 
-   .video-playlist .video-list-container .list{
-      flex-flow: column;
-      gap:10px;
-   }
 
   
 
