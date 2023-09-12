@@ -403,7 +403,7 @@ html {
 }
 
 body {
-	background: white;
+	background: #000;
 	/* Fallback for when there is no custom background color defined. */
 }
 p{
