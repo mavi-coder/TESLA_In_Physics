@@ -926,8 +926,19 @@ ul > li {
 	margin-top:12px;
 	margin-right:10px;
   }
-  input:checked ~ h1 ~ div.p{
-	max-height:1000px;
+   input:checked ~ h1 ~ div.p{
+    max-height:300px;
+    overflow-y: scroll;
+  }
+  input:checked ~ h1 ~ div.p::-webkit-scrollbar{
+	-webkit-appearance: none;
+    width: 10px;
+  }
+
+  input:checked ~ h1 ~ div.p::-webkit-scrollbar-thumb{
+	border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
   a{
 	color:steelblue;
