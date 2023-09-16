@@ -927,7 +927,7 @@ ul > li {
 	margin-right:10px;
   }
   input:checked ~ h1 ~ div.p{
-	max-height:300px;
+	max-height:1000px;
   }
   a{
 	color:steelblue;
