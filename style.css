@@ -1292,14 +1292,12 @@ ul > li {
 	background: #4e54c8;
 	width: 100%;
 	display: flex;
+	justify-content: space-around;
 
 }
 
 .about-teacher .text-section{
-	color: #fff;
 	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom:auto ;
 }
 .about-teacher .text-section h1{
@@ -1307,10 +1305,6 @@ ul > li {
 	font-weight: 900;
 	text-align:center ;
 	color: #fff;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:auto ;
 
 }
 .about-teacher .text-section p{
@@ -1318,17 +1312,12 @@ ul > li {
 	font-weight: 300;
 	color: #fff;
 	text-align:center ;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:auto ;
 
 }
 .about-teacher .image-section{
 	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom:auto ;
+	height: 100%;
 }
 /*===Latest New =================*/
 
