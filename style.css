@@ -760,7 +760,7 @@ ul > li {
 	course section
 ===========================*/
 
-.video-playlist{
+.course-section{
 	max-width: 1200px;
 	margin:0px auto;
 	padding-top:200px ;
@@ -768,31 +768,44 @@ ul > li {
 	align-items: flex-start;
 	gap:20px;
  }
- 
- .video-playlist .box{
+
+.course-section .box{
 	flex:1 1 700px;
-	border-radius: 5px;
+	border-radius: 30px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.1);
 	background-color: #fff;
+	padding:20px;
 	margin-right: auto;
 	margin-left: auto;
-	padding:15px;
+	margin-bottom: 30px;
+}
+
+.course-section .main-content{
+	flex:1 1 700px;
+	border-radius: 30px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	background-color: #fff;
+	padding:20px;
+	width: 70vw;
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom: 30px;
  }
  
- .video-playlist .main-video-container .main-video{
+ .course-section .main-content .main-item{
 	margin-bottom: 7px;
 	border-radius: 5px;
 	width: 100%;
  }
  
- .video-playlist .main-video-container .main-vid-title{
-	font-size: 15px;
-	text-align: center;
+ .course-section .main-content .main-vid-title{
+	font-size: 20px;
+	color:#444;
  }
  
- .video-playlist .video-list-container{
+ .course-section .list-content{
 	flex:1 1 350px;
+	max-height: 300px;
 	overflow-y: scroll;
 	border-radius: 5px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.1);
@@ -800,59 +813,72 @@ ul > li {
 	padding:15px;
  }
  
- .video-playlist .video-list-container::-webkit-scrollbar{
+ .course-section .list-content::-webkit-scrollbar{
 	width: 10px;
  }
  
- .video-playlist .video-list-container::-webkit-scrollbar-track{
+ .course-section .list-content::-webkit-scrollbar-track{
 	background-color: #fff;
 	border-radius: 5px;
  }
  
- .video-playlist .video-list-container::-webkit-scrollbar-thumb{
+ .course-section .list-content::-webkit-scrollbar-thumb{
 	background-color: #444;
 	border-radius: 5px;
  }
  
- .video-playlist .video-list-container .list{
+ .course-section .list-content .list{
 	display: flex;
 	align-items: center;
+	gap:15px;
 	padding:10px;
 	background-color: #eee;
 	cursor: pointer;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	flex-flow: column;
-	gap:10px;
  }
  
- .video-playlist .video-list-container .list:last-child{
+ .course-section .list-content .list:last-child{
 	margin-bottom: 0;
  }
  
- .video-playlist .video-list-container .list.active{
+ .course-section .list-content .list.active{
 	background-color: #444;
  }
  
- .video-playlist .video-list-container .list.active .list-title{
+ .course-section .list-content .list.active .list-title{
 	color:#fff;
-	
  }
  
- .video-playlist .video-list-container .list .list-video{
+ .course-section .list-content .list .list-item{
 	width: 100px;
 	border-radius: 5px;
  }
  
- .video-playlist .video-list-container .list .list-title{
+ .course-section .list-content .list .list-title{
 	font-size: 17px;
 	color:#444;
+	margin-right: auto;
+	margin-left: auto;
  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  @media (max-width:1200px){
  
-	.video-playlist{
+	.course-section{
 	   margin:0;
 	}
  
@@ -860,19 +886,21 @@ ul > li {
  
  @media (max-width:450px){
  
-	.video-playlist .main-video-container .main-vid-title{
+	.course-section .main-content .main-vid-title{
 	   font-size: 15px;
 	   text-align: center;
 	}
  
-	.video-playlist .video-list-container .list{
+	.course-section .list-content .list{
 	   flex-flow: column;
 	   gap:10px;
 	}
  
-   
+	.course-section .list-content .list .list-item{
+	   width: 100%;
+	}
  
-	.video-playlist .video-list-container .list .list-title{
+	.course-section .list-content .list .list-title{
 	   font-size: 15px;
 	   text-align: center;
 	}
@@ -926,8 +954,9 @@ ul > li {
 	margin-top:12px;
 	margin-right:10px;
   }
+
    input:checked ~ h1 ~ div.p{
-    max-height:300px;
+	max-height:300px;
     overflow-y: scroll;
   }
   input:checked ~ h1 ~ div.p::-webkit-scrollbar{
@@ -943,6 +972,7 @@ ul > li {
   a{
 	color:steelblue;
   }
+
 
 
 /*==========================
