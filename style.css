@@ -784,14 +784,14 @@ ul > li {
 .course-section .main-content{
 	flex:1 1 700px;
 	border-radius: 30px;
-	box-shadow: 0 5px 15px rgba(0,0,0,.1);
 	background-color: #fff;
 	padding:20px;
 	height: 70vh;
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 30px;
+	margin-bottom: 10%;
+	margin-top: 10%;
  }
  
  .course-section .main-content .main-item{
