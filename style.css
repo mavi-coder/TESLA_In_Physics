@@ -775,6 +775,7 @@ ul > li {
 	box-shadow: 0 5px 15px rgba(0,0,0,.1);
 	background-color: #fff;
 	padding:20px;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 30px;
@@ -786,16 +787,16 @@ ul > li {
 	box-shadow: 0 5px 15px rgba(0,0,0,.1);
 	background-color: #fff;
 	padding:20px;
-	width: 70vw;
+	height: 70vh;
+	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 30px;
  }
  
  .course-section .main-content .main-item{
-	margin-bottom: 7px;
-	border-radius: 5px;
 	width: 100%;
+	height: 100%;
  }
  
  .course-section .main-content .main-vid-title{
