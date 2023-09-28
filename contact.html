@@ -13,39 +13,104 @@
 	<link rel="stylesheet" type="text/css" href="css/SectionHeader.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/Scroll-Indicator.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-	<style>
-		.contact{
+		<style>
+			.button-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			height: 100vh;
-			background: #4e54c8;
-			display: block;
-		}
+			background: #000; 
 
-		.contact h1{
-			text-align: center;
-			font-size: 50px;
-			color: white;
-			padding-top: 250px;
-			margin-bottom: 15px;
-		}
+			}
 
-		.contact .contact-button{
-			margin-right: auto;
-			margin-left: auto;
-			border-radius: 30px;
-			background: #000;
-			color: #fff;
-			padding: 20px;
-			width: 200px;
-		}
-		.contact .contact-button a h3{
-			color: #fff;
-			text-align: center;
-			font-size: 15px;
-			font-weight: 900;
-		}
-	</style>
+			.glass-btn {
+			width: 100px;
+			height: 100px;
+			background-color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 7px;
+			margin-left: 1em;
+			margin-right: 1em;  
+			cursor: pointer;
+			transition: all 0.3s;
+
+			&.blue-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px #4e54c8;
+				-moz-box-shadow: 0px 20px 20px -17px #4e54c8;
+				box-shadow: 0px 20px 20px -17px #4e54c8;
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px #4e54c8;
+				-moz-box-shadow: 0px 20px 35px -16px #4e54c8;
+				box-shadow: 0px 20px 35px -16px #4e54c8;      
+				}
+
+				.content {
+				font-size: 3em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #006fff, #00acff 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(0, 111, 255, 0.8);
+				}
+			}
+
+			&.red-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+				-moz-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+				box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+				-moz-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+				box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);      
+				}
+
+				.content {
+				font-size: 4em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #ff1027, #ff4f06 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(255, 16, 39, 0.6);
+				}
+			}
+
+			&.amber-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+				-moz-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+				box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+				-moz-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+				box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);      
+				}
+
+				.content {
+				font-size: 3em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #ff8d00, #f7ad07 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(255, 94, 16, 0.7);
+				}
+			}
+
+			&:hover {
+				background-color: darken(#fafafa, 2%);    
+				transform: translateY(-5px);
+				transition: all 0.3s;
+			}
+			}
+
+		</style>
+		
 	
 			<!-- Top header Close -->
 			<div class="main-header">
@@ -79,14 +144,26 @@
 				</div>
 			</div>
 		</header>
-		<section class="contact">
-			<h1>تواصل معى</h1>
-			<div class="contact-button">
-				<a  href="https://chat.whatsapp.com/GGJicbPdm1F8AHj7o3YIzz"><h3>الإنضمام إلى الدردشة</h3></a>
+		
+		<div class="button-container">
+  
+			<div class="glass-btn blue-btn">
+			  <a href="https://chat.whatsapp.com/GGJicbPdm1F8AHj7o3YIzz"><i class='bx bxl-whatsapp' style="font-size: 40px;  color: #000; "></i></a>
 			</div>
-		</section>
+		  
+			<div class="glass-btn red-btn">
+			  <!-- <div class="content">
+				e
+			  </div> -->
+			  <a href="tel:01155529195"><i class='bx bxs-phone' style="font-size: 40px; color: #000; "></i></a>
+			</div>
+			
+		  
+		  </div>
+
+		  
 	
-		<footer class="page-footer">
+		<footer class="page-footer" style="background: #fff; ">
 			
 			
 			<!-- End of box-Wrap -->
@@ -101,8 +178,6 @@
 
 		
 	</div>
-	<script src="https://smtpjs.com/v3/smtp.js">
-	</script>
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/lightbox.js"></script>
 	<script type="text/javascript" src="js/all.js"></script>
