@@ -866,21 +866,22 @@ ul > li {
  /*courses card*/
 
 .projects {
-    background-color: #000016;
+    background-color: #fff;
 }
 
 .projects .content{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .project-card {
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color: #000;
+    border: 1px solid #000;
     min-height: 14em;
-    width: 23em;
+    width: 35em;
     overflow: hidden;
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
     transition: 0.7s ease;
 }
 
@@ -897,12 +898,12 @@ ul > li {
 }
 
 .project-info {
-    padding: 1em;
+    padding: 3em;
 }
 
 .project-category {
-    font-size: 0.8em;
-    color: #000;
+    font-size: 4.em;
+    color: #fff;
 }
 
 .project-title {
@@ -915,12 +916,16 @@ ul > li {
 
 .more-details {
     text-decoration: none;
-    color: #3a6cf4;
+    color: #fff;
 }
 
-.more-details:hover {
-    color: #601cfc;
-}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
