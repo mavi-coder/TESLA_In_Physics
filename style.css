@@ -866,7 +866,7 @@ ul > li {
  /*courses card*/
 
 .projects {
-    background-color: #fff;
+    background-color: #000;
 }
 
 .projects .content{
@@ -875,8 +875,8 @@ ul > li {
 }
 
 .project-card {
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #fff;
+    border: 1px solid #fff;
     min-height: 14em;
     width: 35em;
     overflow: hidden;
@@ -903,7 +903,7 @@ ul > li {
 
 .project-category {
     font-size: 4.em;
-    color: #fff;
+    color: #000;
 }
 
 .project-title {
@@ -916,7 +916,7 @@ ul > li {
 
 .more-details {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
  
