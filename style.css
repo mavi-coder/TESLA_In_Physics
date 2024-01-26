@@ -885,9 +885,6 @@ ul > li {
     transition: 0.7s ease;
 }
 
-.project-card:hover {
-   transform: scale(1.1);
-}
 
 .project-card:hover .project-image {
     opacity: 0.9;
@@ -922,6 +919,12 @@ ul > li {
     border-radius:30px;
     padding:15px;
     background-color: #000;
+}
+
+.project-title span{
+	color:#000;
+	font-size: 4.em;
+	font-weight: 800;
 }
 
 
