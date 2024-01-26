@@ -905,7 +905,7 @@ ul > li {
 
 .project-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
