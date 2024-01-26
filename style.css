@@ -908,7 +908,7 @@ ul > li {
     justify-content: center;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .more-details {
@@ -921,11 +921,7 @@ ul > li {
     background-color: #000;
 }
 
-.project-title span{
-	color:#000;
-	font-size: 4.em;
-	font-weight: 800;
-}
+
 
 
  
