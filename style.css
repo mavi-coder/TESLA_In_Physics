@@ -916,7 +916,12 @@ ul > li {
 
 .more-details {
     text-decoration: none;
-    color: #000;
+    font-size: 4.em;
+    font-weight: 800;
+    color: #fff;
+    border-radius:30px;
+    padding:20px;
+    background-color: #000;
 }
 
  
