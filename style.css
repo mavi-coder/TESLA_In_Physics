@@ -921,6 +921,14 @@ ul > li {
     background-color: #000;
 }
 
+.more-details:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.more-details:active {
+    color: #fff;
+}
 
 
 
