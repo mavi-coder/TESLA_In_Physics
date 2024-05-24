@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TESLA</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+	<link rel="stylesheet" type="text/css" href="inner-page-style.css">
+	<link rel="stylesheet" type="text/css" href="css/SectionHeader.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/Scroll-Indicator.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+		<style>
+			.button-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			background: #000; 
+
+			}
+
+			.glass-btn {
+			width: 100px;
+			height: 100px;
+			background-color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 7px;
+			margin-left: 1em;
+			margin-right: 1em;  
+			cursor: pointer;
+			transition: all 0.3s;
+
+			&.blue-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px #4e54c8;
+				-moz-box-shadow: 0px 20px 20px -17px #4e54c8;
+				box-shadow: 0px 20px 20px -17px #4e54c8;
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px #4e54c8;
+				-moz-box-shadow: 0px 20px 35px -16px #4e54c8;
+				box-shadow: 0px 20px 35px -16px #4e54c8;      
+				}
+
+				.content {
+				font-size: 3em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #006fff, #00acff 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(0, 111, 255, 0.8);
+				}
+			}
+
+			&.red-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+				-moz-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+				box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+				-moz-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+				box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);      
+				}
+
+				.content {
+				font-size: 4em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #ff1027, #ff4f06 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(255, 16, 39, 0.6);
+				}
+			}
+
+			&.amber-btn {
+				-webkit-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+				-moz-box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+				box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+
+				&:hover {
+				-webkit-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+				-moz-box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+				box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);      
+				}
+
+				.content {
+				font-size: 3em;
+				font-family: "Roboto", sans-serif;
+				background: linear-gradient(to right, #ff8d00, #f7ad07 70%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0px 10px 37px rgba(255, 94, 16, 0.7);
+				}
+			}
+
+			&:hover {
+				background-color: darken(#fafafa, 2%);    
+				transform: translateY(-5px);
+				transition: all 0.3s;
+			}
+			}
+
+		</style>
+		
+	
+			<!-- Top header Close -->
+			<div class="main-header">
+				<div class="container">
+					<div class="logo-wrap">
+						<a href="https://wael-abd-alwhab.github.io/TESLA_In_Physics/index.html"><img src="images/site-logo.png" alt="Logo Image" width="150px"></a>	
+					</div>
+					<div class="nav-wrap">
+						<nav class="nav-desktop">
+							<ul class="menu-list">
+								<li><a href="index.html">الصفحة الرئيسية</a></li>
+								<li class="menu-parent">كورسات
+									<ul class="sub-menu">
+										<li><a href="course-listing.html">الصف الثالث الثانوى</a></li>
+									</ul>
+								</li>
+								
+								<li><a href="contact.html">تواصل معى</a></li>
+							</ul>
+						</nav>
+						<div id="bar">
+							<i class="fas fa-bars"></i>
+						</div>
+						<div id="close">
+							<i class="fas fa-times"></i>
+						</div>
+					</div>
+				</div>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="button-container">
+  
+			<div class="glass-btn blue-btn">
+			  <a href="https://chat.whatsapp.com/GGJicbPdm1F8AHj7o3YIzz"><i class='bx bxl-whatsapp' style="font-size: 40px;  color: #000; "></i></a>
+			</div>
+		  
+			<div class="glass-btn red-btn">
+			  <!-- <div class="content">
+				e
+			  </div> -->
+			  <a href="tel:01155529195"><i class='bx bxs-phone' style="font-size: 40px; color: #000; "></i></a>
+			</div>
+			
+		  
+		  </div>
+
+		  
+	
+		<footer class="page-footer" style="background: #fff; ">
+			
+			
+			<!-- End of box-Wrap -->
+			<div class="footer-last-section">
+				<div class="footer">
+					<p>Copyright  &copy;  TESLA in Physics</p>
+				</div>
+			</div>
+		</footer>
+		
+		
+
+		
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.rateyo.js"></script>
+	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/Scroll-Indicator.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+	
+  
+</body>
+</html>
