@@ -986,11 +986,11 @@ ul > li {
  }
 
 
- div.c{
+ .c{
 	position: relative;
 	margin:2em;
   }
-  input{
+  .c input{
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -998,56 +998,54 @@ ul > li {
 	opacity:0;
 	visibility: 0;
   }
-  h1{
+  .c h1{
 	background:#4e54c8;
 	color:white;
 	padding:1em;
 	position: relative;
   }
-  label::before{
+  .c label::before{
 	content:"";
 	display: inline-block;
 	border: 15px solid transparent;
 	border-left:20px solid white;
   }
-  label{
+  .c label{
 	cursor: pointer;
 	position: relative;
 	display: flex;
 	align-items: center;
   }
-  div.p{
+  .p{
 	max-height:0px;
 	overflow: hidden;
 	transition:max-height 0.5s;
 	background-color: white;
 	box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
   }
-  div.p p {
-	padding:2em;
-  }
-  input:checked ~ h1 label::before{
+
+  .c input:checked ~ h1 label::before{
 	border-left:15px solid transparent;
 	border-top:20px solid white;
 	margin-top:12px;
 	margin-right:10px;
   }
 
-   input:checked ~ h1 ~ div.p{
+  .c input:checked ~ h1 ~ div.p{
 	max-height:300px;
-    overflow-y: scroll;
+        overflow-y: scroll;
   }
-  input:checked ~ h1 ~ div.p::-webkit-scrollbar{
+  .c input:checked ~ h1 ~ div.p::-webkit-scrollbar{
 	-webkit-appearance: none;
-    width: 10px;
+        width: 10px;
   }
 
-  input:checked ~ h1 ~ div.p::-webkit-scrollbar-thumb{
+ .c input:checked ~ h1 ~ div.p::-webkit-scrollbar-thumb{
 	border-radius: 4px;
-    background-color: rgba(0,0,0,.5);
-    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
   }
-  a{
+ .c a{
 	color:steelblue;
   }
 
