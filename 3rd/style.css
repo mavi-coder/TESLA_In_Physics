@@ -1053,60 +1053,72 @@ ul > li {
 /*==========================
 	login page
 ===========================*/
-.login-form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-	    border: 4px solid #ccc;
-            background: #fff;
-            justify-content: center;
-	    border-radius: 15px;
-	    width:50vw;
-            height:70vh;
-	    margin-right:auto;
-	    margin-left:auto;
-        }
 
-        .login-form h2 {
-            color: #000;
- 	    font-size:30px;
-        }
+.login-form{
+    height: 450px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.login-form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.login-form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
 
-        .login-form input {
-            margin: 15px;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            width: 95%;
-            background-color: #fff;
-            color: #000;
-        }
+.login-form label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-form input{
+    display: block;
+    color:#000;
+    height: 50px;
+    width: 100%;
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.login-form ::placeholder{
+    color: #000;
+}
+.login-form button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#content {
+   display: none;
+ }
 
-        .login-form input::placeholder {
-            color: #000;
-        }
-
-        .login-form button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background: #4e54c8;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 95%;
-            z-index: 10; /* تأكد من أن الزر فوق العناصر الأخرى */
-        }
-
-        .login-form button:hover {
-            background: #3b3fc4;
-        }
-
-        #content {
-            display: none;
-        }
-
+ 
 
 /*==========================
 	Course listing Page
