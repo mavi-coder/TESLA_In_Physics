@@ -1,13 +1,12 @@
-const accounts = [{ email: "example@gmail.com", password: "1234" },
-                  { email: "example2@gmail.com", password: "4321"},
-                  { email: "example3@gmail.com", password: "1324"} 
+const accounts = [{ phone: "01066258336", password: "f1g6n" },
+                
 ];
 
 function login() {
-    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
     const password = document.getElementById('password').value;
 
-    const user = accounts.find(account => account.email === email && account.password === password);
+    const user = accounts.find(account => account.phone === phone  && account.password === password);
     if (user) {
         document.getElementById('login-form').style.display = 'none';
         document.getElementById('content').style.display = 'block';
