@@ -1,11 +1,11 @@
 const accounts = [{ phone: "01066258336", password: "f1g6n" }, 
-                  { phone: "01559831235", password: "o2n3" }, 
+                  { phone: "01559831235", password: "o2n3" }
                 
 ];
 
 function login() {
-    const phone = document.getElementById('phone').value;
-    const password = document.getElementById('password').value;
+    const phone = document.getElementById('phone').value.trim();
+    const password = document.getElementById('password').value.trim();
 
     const user = accounts.find(account => account.phone === phone  && account.password === password);
     if (user) {
