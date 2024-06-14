@@ -1,4 +1,5 @@
-const accounts = [{ phone: "01066258336", password: "f1g6n" },
+const accounts = [{ phone: "01066258336", password: "f1g6n" }, 
+                  { phone: "01559831235", password: "o2n3" }, 
                 
 ];
 
