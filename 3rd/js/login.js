@@ -3,7 +3,7 @@ window.onload = function() {
     // إذا كان المستخدم قد سجل دخوله، يوجه إلى الصفحة الرئيسية
     if (localStorage.getItem('userEmail')) {
         if (window.location.pathname === '/login.html') {
-            window.location.href = 'profile.html';
+            window.location.href = 'home.html';
         }
     } else {
         // إذا لم يكن قد سجل الدخول، يوجه إلى صفحة تسجيل الدخول
@@ -27,7 +27,7 @@ function login(event) {
 
             if (user) {
                 localStorage.setItem('userEmail', emailInput);
-                window.location.href = 'profile.html'; // التوجيه إلى الصفحة الرئيسية
+                window.location.href = 'home.html'; // التوجيه إلى الصفحة الرئيسية
             } else {
                 document.getElementById('errorMessage').innerText = 'البريد الإلكتروني أو كلمة المرور غير صحيحين!';
             }
