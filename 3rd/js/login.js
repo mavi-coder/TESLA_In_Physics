@@ -1,13 +1,15 @@
-// التحقق من حالة تسجيل الدخول عند تحميل الصفحة
 window.onload = function() {
-    // إذا كان المستخدم قد سجل دخوله، يوجه إلى الصفحة الرئيسية
+    const currentPage = window.location.pathname;
+
+    // إذا كان المستخدم قد سجل دخوله
     if (localStorage.getItem('userEmail')) {
-        if (window.location.pathname === '/login.html') {
+        // إذا كان المستخدم في صفحة تسجيل الدخول، وجهه إلى الصفحة الشخصية
+        if (currentPage === '/login.html') {
             window.location.href = 'home.html';
         }
     } else {
-        // إذا لم يكن قد سجل الدخول، يوجه إلى صفحة تسجيل الدخول
-        if (window.location.pathname !== '/login.html') {
+        // إذا لم يكن قد سجل الدخول ولم يكن بالفعل في صفحة تسجيل الدخول، وجهه إلى صفحة تسجيل الدخول
+        if (currentPage !== '/login.html') {
             window.location.href = 'login.html';
         }
     }
@@ -27,7 +29,7 @@ function login(event) {
 
             if (user) {
                 localStorage.setItem('userEmail', emailInput);
-                window.location.href = 'home.html'; // التوجيه إلى الصفحة الرئيسية
+                window.location.href = 'profile.html'; // التوجيه إلى الصفحة الشخصية
             } else {
                 document.getElementById('errorMessage').innerText = 'البريد الإلكتروني أو كلمة المرور غير صحيحين!';
             }
