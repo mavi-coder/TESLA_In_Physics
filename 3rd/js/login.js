@@ -1,15 +1,15 @@
 window.onload = function() {
-    const currentPage = window.location.pathname;
+    const currentURL = window.location.href;
 
     // إذا كان المستخدم قد سجل دخوله
     if (localStorage.getItem('userEmail')) {
         // إذا كان المستخدم في صفحة تسجيل الدخول، وجهه إلى الصفحة الشخصية
-        if (currentPage === 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/login.html') {
+        if (currentURL === 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/login.html') {
             window.location.href = 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/home.html';
         }
     } else {
         // إذا لم يكن قد سجل الدخول ولم يكن بالفعل في صفحة تسجيل الدخول، وجهه إلى صفحة تسجيل الدخول
-        if (currentPage !== 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/login.html') {
+        if (currentURL !== 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/login.html') {
             window.location.href = 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/login.html';
         }
     }
