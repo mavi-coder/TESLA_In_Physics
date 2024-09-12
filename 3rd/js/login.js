@@ -29,7 +29,7 @@ function login(event) {
 
             if (user) {
                 localStorage.setItem('userEmail', emailInput);
-                window.location.href = 'profile.html'; // التوجيه إلى الصفحة الشخصية
+                window.location.href = 'https://wael-abd-alwhab.github.io/TESLA_In_Physics/3rd/home.html'; // التوجيه إلى الصفحة الشخصية
             } else {
                 document.getElementById('errorMessage').innerText = 'البريد الإلكتروني أو كلمة المرور غير صحيحين!';
             }
