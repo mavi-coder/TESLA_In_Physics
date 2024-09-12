@@ -14,7 +14,7 @@
         "class-time":"6",
     }
 
-      {
+    {
         "name":"ملك عيد",
         "email": "malakeid290@gmail.com",
         "password": "eid@p",
@@ -24,10 +24,15 @@
         "class-time":"12",
     }
 
+    {
 
-      {
-        "email": "sample2@gmail.com",
-        "password": "123456",
-        "phone": "01001001010"
+       "name":"سيد وائل",
+        "email": "sayedwael2555@icloud.com",
+        "password": "wael@p",
+        "phone": "01068446842",
+        "mother-phone":"011111096109",
+        "class":"الأربع",
+        "class-time":"10",
+
     }
 ]
