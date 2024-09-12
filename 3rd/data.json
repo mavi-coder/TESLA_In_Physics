@@ -5,6 +5,27 @@
         "phone": "0100010101"
     },
     {
+        "name":"ملك أيمن",
+        "email": "malkmahdy514@gmail.com",
+        "password": "malak@p",
+        "phone": "01154211091",
+        "mother-phone":"01141212091",
+        "class":"الأربع",
+        "class-time":"6",
+    }
+
+      {
+        "name":"ملك عيد",
+        "email": "malakeid290@gmail.com",
+        "password": "malak2@p",
+        "phone": "01102081308",
+        "mother-phone":"01125116520",
+        "class":"الإثنين",
+        "class-time":"12",
+    }
+
+
+      {
         "email": "sample2@gmail.com",
         "password": "123456",
         "phone": "01001001010"
