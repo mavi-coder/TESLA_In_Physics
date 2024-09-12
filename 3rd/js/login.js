@@ -1,27 +1,38 @@
-const accounts = [{ phone: "01066258336", password: "f1g6n" }, 
-                  { phone: "01559831235", password: "o2n3" },
-                  { phone: "01125286165", password: "n5t9" },
-                  { phone: "01012835186", password: "o7y5" },
-                  { phone: "01289020751", password: "b4v6" },
-                  { phone: "01111849989", password: "t8h1" }
-                  
-                
-];
-
-function login() {
-    const phone = document.getElementById('phone').value.trim();
-    const password = document.getElementById('password').value.trim();
-
-    const user = accounts.find(account => account.phone === phone  && account.password === password);
-    if (user) {
-        document.getElementById('login-form').style.display = 'none';
-        document.getElementById('content').style.display = 'block';
-        document.body.style.display = 'block';
+// التحقق من حالة تسجيل الدخول عند تحميل الصفحة
+window.onload = function() {
+    // إذا كان المستخدم قد سجل دخوله، يوجه إلى الصفحة الرئيسية
+    if (localStorage.getItem('userEmail')) {
+        if (window.location.pathname === '/login.html') {
+            window.location.href = 'profile.html';
+        }
     } else {
-        alert('البريد الإلكتروني أو كلمة المرور غير صحيحة');
+        // إذا لم يكن قد سجل الدخول، يوجه إلى صفحة تسجيل الدخول
+        if (window.location.pathname !== '/login.html') {
+            window.location.href = 'login.html';
+        }
     }
-}
+};
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    document.body.style.display = 'block';
-});
+// دالة تسجيل الدخول
+function login(event) {
+    event.preventDefault();
+    const emailInput = document.getElementById('email').value;
+    const passwordInput = document.getElementById('password').value;
+
+    fetch('data.json') // افترض أن ملف JSON هو data.json
+        .then(response => response.json())
+        .then(data => {
+            // البحث عن المستخدم في ملف JSON
+            const user = data.find(user => user.email === emailInput && user.password === passwordInput);
+
+            if (user) {
+                localStorage.setItem('userEmail', emailInput);
+                window.location.href = 'profile.html'; // التوجيه إلى الصفحة الرئيسية
+            } else {
+                document.getElementById('errorMessage').innerText = 'البريد الإلكتروني أو كلمة المرور غير صحيحين!';
+            }
+        })
+        .catch(error => {
+            console.error('خطأ في تحميل ملف JSON:', error);
+        });
+}
