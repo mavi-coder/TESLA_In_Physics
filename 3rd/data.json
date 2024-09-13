@@ -2,76 +2,51 @@
     {
         "email": "waelskaw@gmail.com",
         "password": "0000",
-        "phone": "0100010101",
+        "phone": "0100010101"
     },
     {
-        "name":"ملك أيمن",
+        "name": "ملك أيمن",
         "email": "malkmahdy514@gmail.com",
         "password": "mahdy@p",
         "phone": "01154211091",
-        "mother-phone":"01141212091",
-        "class":"الأربع",
-        "class-time":"6",
-    }
-
+        "mother-phone": "01141212091",
+        "class": "الأربع",
+        "class-time": "6"
+    },
     {
-        "name":"ملك عيد",
+        "name": "ملك عيد",
         "email": "malakeid290@gmail.com",
         "password": "eid@p",
         "phone": "01102081308",
-        "mother-phone":"01125116520",
-        "class":"الإثنين",
-        "class-time":"12",
-    }
-
+        "mother-phone": "01125116520",
+        "class": "الإثنين",
+        "class-time": "12"
+    },
     {
-
-        "name":"سيد وائل",
+        "name": "سيد وائل",
         "email": "sayedwael2555@icloud.com",
         "password": "wael@p",
         "phone": "01068446842",
-        "mother-phone":"011111096109",
-        "class":"الأربع",
-        "class-time":"10",
-
-    }
-
+        "mother-phone": "011111096109",
+        "class": "الأربع",
+        "class-time": "10"
+    },
     {
-
-        "name":"مارفل مجدى",
+        "name": "مارفل مجدى",
         "email": "marvelmagdy384@gmail.com",
         "password": "magdy@p",
         "phone": "01211404332",
-        "mother-phone":"01227551010",
-        "class":"الأربع",
-        "class-time":"1",
-
-    }
-
+        "mother-phone": "01227551010",
+        "class": "الأربع",
+        "class-time": "1"
+    },
     {
-
-        "name":"حبيبة أيمن",
+        "name": "حبيبة أيمن",
         "email": "ha2042210@gmail.com",
         "password": "ha@p",
         "phone": "01120817844",
-        "mother-phone":"0120911307",
-        "class":"الأربع",
-        "class-time":"6",
-
+        "mother-phone": "0120911307",
+        "class": "الأربع",
+        "class-time": "6"
     }
-
-
-    {
-
-        "name":"حبيبة أيمن",
-        "email": "ha2042210@gmail.com",
-        "password": "ha@p",
-        "phone": "01120817844",
-        "mother-phone":"0120911307",
-        "class":"الأربع",
-        "class-time":"6",
-
-    }
-
-    
 ]
