@@ -12,7 +12,7 @@
         "mother-phone":"01141212091",
         "class":"الأربع",
         "class-time":"6",
-    }
+    },
 
     {
         "name":"ملك عيد",
@@ -22,7 +22,7 @@
         "mother-phone":"01125116520",
         "class":"الإثنين",
         "class-time":"12",
-    }
+    },
 
     {
 
@@ -34,5 +34,20 @@
         "class":"الأربع",
         "class-time":"10",
 
-    }
+    },
+
+    {
+
+        "name":"مارفيل مجدى",
+        "email": "marvelmagdy384@gmail.com",
+        "password": "magdy@p",
+        "phone": "01211404332",
+        "mother-phone":"01227551010"",
+        "class":"الأربع",
+        "class-time":"1",
+
+    },
+
+
+    
 ]
