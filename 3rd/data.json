@@ -48,5 +48,34 @@
         "mother-phone": "0120911307",
         "class": "الأربع",
         "class-time": "6"
+    },
+
+    {
+        "name": "مارينا مكرم",
+        "email": "marinamakram19972007@gmail.com",
+        "password": "makram@p",
+        "phone": "01275156230",
+        "mother-phone": "01226553830",
+        "class": "الأربع",
+        "class-time": "1"
+    },
+    {
+        "name": "منا أحمد",
+        "email": "manmonahmed2007@gmail.com",
+        "password": "ahmed@p",
+        "phone": "01033088460",
+        "mother-phone": "01006366573",
+        "class": "الأربع",
+        "class-time": "1"
+    },
+    {
+        "name": "منا محمود",
+        "email": "menna.mahmoud98765@gmail.com",
+        "password": "mahmoud@p",
+        "phone": "01022725120",
+        "mother-phone": "01022725120",
+        "class": "الأربع",
+        "class-time": "6"
     }
+
 ]
