@@ -84,6 +84,16 @@
         "mother-phone": "01121520471",
         "class": "الاتنين",
         "class-time": "3"
+    },
+
+    {
+        "name": "أنس وائل",
+        "email": "anasw4510@gamil.com",
+        "password": "wa@p",
+        "phone": "01555922857",
+        "mother-phone": "01551270888",
+        "class": "الأربع",
+        "class-time": "10"
     }
 
 ]
