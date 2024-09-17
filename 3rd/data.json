@@ -87,13 +87,55 @@
     },
 
     {
-        "name": "أنس وائل",
-        "email": "anasw4510@gamil.com",
-        "password": "wa@p",
-        "phone": "01555922857",
-        "mother-phone": "01551270888",
-        "class": "الأربع",
+        "name": "عمر حسن",
+        "email": "oha56902@gmail.com",
+        "password": "oha@p",
+        "phone": "01012712551",
+        "mother-phone": "01005026146",
+        "class": "الإثنين",
+        "class-time": "3"
+    },
+
+
+    {
+        "name": "أحمد سلامة",
+        "email": "ahmedouda9426@gmail.com",
+        "password": "ouda@p",
+        "phone": "01096694831",
+        "mother-phone": "01024793668",
+        "class": "الإثنين",
+        "class-time": "3"
+    },
+
+    {
+        "name": "سلمى سمير",
+        "email": "samirsalma416@gamil.com",
+        "password": "salma@p",
+        "phone": "01005698422",
+        "mother-phone": "01010234059",
+        "class": "الأربعاء",
         "class-time": "10"
+    },
+
+
+    {
+        "name": "ميار خالد",
+        "email": "yousedrti@gmail.com",
+        "password": "drti@p",
+        "phone": "01091669176",
+        "mother-phone": "01115693920",
+        "class": "الأربعاء",
+        "class-time": "6"
+    },
+
+    {
+        "name": "محمد علاء",
+        "email": "moamedalaa181818@gmail.com",
+        "password": "alaa@p",
+        "phone": "01118317128",
+        "mother-phone": "01145054544",
+        "class": "الإثنين",
+        "class-time": "3"
     }
 
 ]
