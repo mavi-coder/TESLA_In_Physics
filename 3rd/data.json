@@ -189,5 +189,45 @@
         "mother-phone": "01142122643",
         "class": "الجمعة",
         "class-time": "4"
+    },
+
+    {
+        "name": "عبدالله محمد",
+        "email": "abdallahmohamed.am16@gmail.com",
+        "password": "mohamed@p",
+        "phone": "01142807402",
+        "mother-phone": "01147174711",
+        "class": "الاربعاء",
+        "class-time": "10"
+    },
+
+    {
+        "name": "مارڤل عنتر",
+        "email": "marvelanter2111@gmail.com",
+        "password": "anter@p",
+        "phone": "01148168784",
+        "mother-phone": "01222891325",
+        "class": "الاربعاء",
+        "class-time": "1"
+    },
+    {
+        "name": "لاميس محروس",
+        "email": "lamiselsokary561@gmail.com",
+        "password": "lamise@p",
+        "phone": "01126054102",
+        "mother-phone": "01126054102",
+        "class": "الإثنين",
+        "class-time": "6"
+    },
+        {
+        "name": "نفين حسن",
+        "email": "ammtz8851@gmail.com",
+        "password": "ammtz@p",
+        "phone": "01065216823",
+        "mother-phone": "01114065154",
+        "class": "الإثنين",
+        "class-time": "6"
     }
+    
+    
 ]
