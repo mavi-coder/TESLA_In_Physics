@@ -219,12 +219,21 @@
         "class": "الإثنين",
         "class-time": "6"
     },
-        {
+    {
         "name": "نفين حسن",
         "email": "ammtz8851@gmail.com",
         "password": "ammtz@p",
         "phone": "01065216823",
         "mother-phone": "01114065154",
+        "class": "الإثنين",
+        "class-time": "6"
+    },
+    {
+        "name": "مريم هاني",
+        "email": "mh3019835@gmail.com",
+        "password": "mh@p",
+        "phone": "01104231636",
+        "mother-phone": "01157122307",
         "class": "الإثنين",
         "class-time": "6"
     }
