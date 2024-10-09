@@ -246,6 +246,25 @@
         "class": "الإثنين",
         "class-time": "6"
     },
+    {
+        "name": "مصطفى",
+        "email": "m17178076@gmail.com",
+        "password": "m17@p",
+        "phone": "01008126501",
+        "mother-phone": "01008626004",
+        "class": "الأربعاء",
+        "class-time": "8"
+    },
+
+    {
+        "name": "بياندا نجاح",
+        "email": "biandanagah513@gmail.com",
+        "password": "bianda@p",
+        "phone": "01004290937",
+        "mother-phone": "01018920007",
+        "class": "الخميس",
+        "class-time": "6"
+    }
     
     
     
