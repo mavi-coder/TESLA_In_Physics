@@ -264,7 +264,18 @@
         "mother-phone": "01018920007",
         "class": "الخميس",
         "class-time": "6"
+    },
+
+    {
+        "name": "ياسين محسن",
+        "email": "yaseenmohsen@gmail.com",
+        "password": "mohsen",
+        "phone": "01061876541",
+        "mother-phone": "01022613960",
+        "class": "الخميس",
+        "class-time": "8"
     }
+    
     
     
     
